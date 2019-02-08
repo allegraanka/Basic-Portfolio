@@ -95,6 +95,12 @@ textarea {
     color: white;
 }
 
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
 /* footer styling */
 .footer {
     position: fixed;
