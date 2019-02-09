@@ -18,18 +18,21 @@ h1 {
     border-bottom: 1px solid #dddddd;
 }
 
+.half-width {
+    width: 54%;
+    display: flex;
+    align-items: center;
+    margin: auto;
+}
+
 .nav-list {
     list-style-type: none;
-    width: 50%;
-    margin: auto;
     padding: 0;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
 }
 
 .nav-list li {
     display: inline;
+    margin-left: 25px;
 }
 
 .header-logo {
@@ -37,19 +40,20 @@ h1 {
     color: white;
     font-size: 1.6em;
     padding: 23px;
+    margin-right: auto;
 }
 
-.about-link {
-    /* flex: 1; */
+/* .about-link {
+    float: right;
 }
 
 .portfolio-link {
-    /* flex: 1; */
+    float: right;
 }
 
 .contact-link {
-    /* flex: 1; */
-}
+    float: right;
+} */
 
 /* body content styling */
 .container {
